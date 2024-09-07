@@ -1,0 +1,125 @@
+html {
+    height: 100%;
+    /* Asegura que el html ocupe toda la altura */
+    background-image: url(/html/Inicio/fondo\ menus.jpg);
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+
+}
+
+body {
+    transform: scale(0.8);
+    transform-origin: center top;
+    perspective: 1000px;
+    margin: 10px 300px;
+    padding: 100px;
+    background-image: url(/html/Inicio/fondo5.avif);
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+
+}
+
+.tarjeta {
+    background-color: antiquewhite;
+    border: 2px solid antiquewhite;
+    border-radius: 30px;
+}
+
+
+
+
+img {
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 250px;
+
+}
+
+.menu-3 {
+    text-align: center;
+}
+
+
+.menu-3 h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.menu-3 p {
+    font-size: 15px;
+
+}
+
+.menu-3 h2,
+.ingredientes-3 h2,
+.pasos-3 h2 {
+    text-decoration: underline;
+}
+
+.ingredientes-3 h2,
+ul {
+    margin-left: 50px;
+}
+
+.ingredientes-3 ul {
+    color: rgb(0, 0, 0);
+
+}
+
+.ingredientes-3 li {
+    font-size: 18px;
+}
+
+/* Alinear fuente */
+.pasos-3 h2 {
+    text-align: center;
+}
+
+/* Tamaño de la fuente  */
+.pasos-3 {
+    font-size: 18px;
+}
+
+.pasos-3 h3 {
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    padding: 10px 20px;
+    /* Espaciado interno */
+    background-color: antiquewhite;
+    /* Color de fondo verde */
+    color: rgb(0, 0, 0);
+    /* Texto blanco */
+    border: none;
+    /* Sin borde */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    cursor: pointer;
+    /* Cambia el cursor al pasar */
+    font-size: 16px;
+    /* Tamaño de la fuente */
+    transition: background-color 0.3s ease;
+    /* Transición suave */
+
+    display: block;
+    /* Necesario para que funcione margin auto */
+    margin: 10px auto;
+    /* Centrará el botón horizontalmente */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button:hover {
+    color: rgb(88, 166, 255);
+}
