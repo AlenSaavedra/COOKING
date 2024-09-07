@@ -6,6 +6,7 @@ html {
     background-position: inherit;
     background-repeat: no-repeat;
     margin: 0;
+    background-attachment: fixed;
 
 }
 
